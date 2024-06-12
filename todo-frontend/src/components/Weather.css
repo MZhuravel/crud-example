@@ -1,0 +1,83 @@
+/* Weather.css */
+
+.weather-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-item {
+    width: 100%;
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.weather-item h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.weather-item p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.react-autosuggest__container {
+    position: relative;
+}
+
+.react-autosuggest__input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 0 auto 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.react-autosuggest__suggestions-container {
+    position: absolute;
+    z-index: 2;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.react-autosuggest__suggestion {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+    background-color: #eee;
+}

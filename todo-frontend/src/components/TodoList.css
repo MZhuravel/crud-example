@@ -1,0 +1,86 @@
+.todo-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.todo-list h1, .todo-list h2 {
+    text-align: center;
+    color: #333;
+}
+
+.todo-list input[type="text"] {
+    width: calc(100% - 110px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.todo-list button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.todo-list button:hover {
+    background-color: #0056b3;
+}
+
+.todo-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.todo-list li:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+.todo-list button.edit {
+    background-color: #ffc107;
+}
+
+.todo-list button.edit:hover {
+    background-color: #e0a800;
+}
+
+.todo-list button.delete {
+    background-color: #dc3545;
+}
+
+.todo-list button.delete:hover {
+    background-color: #c82333;
+}
+
+.todo-list button.status {
+    background-color: #28a745;
+}
+
+.todo-list button.status:hover {
+    background-color: #218838;
+}
+
+.todo-list .completed {
+    text-decoration: line-through;
+    color: #777;
+}
