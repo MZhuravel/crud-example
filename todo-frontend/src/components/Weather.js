@@ -3,6 +3,9 @@ import './Weather.css';
 
 const CITY_OPTIONS = [
   { label: 'Kyiv', value: { lat: 50.45, lon: 30.52 } },
+  { label: 'Lviv', value: { lat: 49.84, lon: 24.03 } },
+  { label: 'Odessa', value: { lat: 46.48, lon: 30.73 } },
+  { label: 'Kharkiv', value: { lat: 49.99, lon: 36.23 } },
   { label: 'New York', value: { lat: 40.71, lon: -74.01 } },
   { label: 'London', value: { lat: 51.51, lon: -0.13 } },
   { label: 'Tokyo', value: { lat: 35.68, lon: 139.76 } },
